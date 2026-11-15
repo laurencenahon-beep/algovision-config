@@ -1,0 +1,17 @@
+{
+  "configurationVersion": 2,
+  "updatedAt": "2026-11-15T16:21:21Z",
+  "source": "AlgoVision",
+  "minimumAppVersionCode": 12,
+  "maximumAppVersionCode": 12,
+  "rules": {
+    "postThresholds": [0, 2, 5, 10, 20],
+    "regularityScores": [20, 35, 52, 70, 85, 92],
+    "activityScores": [25, 38, 56, 72, 86, 94],
+    "recommendationScoreThreshold": 60,
+    "qualityViewSmoothing": 500,
+    "engagementFollowerSmoothing": 200,
+    "engagementMaxScore": 75,
+    "coherenceRegularityWeight": 0.7
+  }
+}
